@@ -6,8 +6,6 @@ scripts/
 
 tryouts/
 
-styles/
-
 node_modules/
 
 package-lock.json
