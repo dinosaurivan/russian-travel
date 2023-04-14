@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Educational project on static web design">
+    <meta name="keywords" content="HTML5, CSS, BEM, media queries">
+    <meta name="author" content="Ivan Shanin">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traveling across Russia</title>
+    <link rel="icon" href="images/plane.png">
+    <link rel="stylesheet" href="styles/styles.css">
+    <!-- <link rel="stylesheet" href="pages/index.css"> -->
+  </head>
+
+  <body class="page">
+
+    <header class="header">
+      <img class="header__logo" src="images/header-logo.svg" alt="tiny-sized map of Russia">
+      <nav>
+        <ul class="header__langs">
+          <li class="header__link"><a class="anchor" href="index_ru.html">Ru</a></li>
+          <li class="header__link"><a class="anchor anchor_active" href="#">En</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="content">
+
+      <section class="lead">
+        <h1 class="lead__title">Traveling across Russia</h1>
+        <p class="lead__subtitle">The real country is here, not in the news.</p>
+        <img
+          class="lead__image"
+          src="images/lead-polka.jpg"
+          alt="passenger is sleeping mid-day on the upper bunk in the compartment during a long train ride"
+        >
+        <p class="lead__caption">your shelf is on top</p>
+      </section>
+
+      <section class="intro">
+        <h3 class="intro__title">What Haven't We Seen There?</h3>
+        <p class="intro__text">
+          According to polls by VCIOM, 95% of Russians dream of going somewhere,
+          but only 36% plan to spend their vacation in their own country.
+          They say, what haven't we seen here at home? In fact,
+          Russia is a whole universe with the gentle sea of the south,
+          dense forests of the Sayan Mountains, and the harsh ice of the Putorana Plateau.
+          Moreover, you can see all these beauties without millions in your bank account,
+          an international passport, or long flights. For example,
+          Vera Bashmakova, a brave young mother who took her three children,
+          put them in her "Lada" car, and traveled 20,000 kilometers across her native country.
+          We have selected and described some interesting places worthy of your vacation.
+        </p>
+        <ul class="intro__facts">
+          <li>Time zones <span class="intro__fact-value">11</span></li>
+          <li>UNESCO natural heritage sites <span class="intro__fact-value">12</span></li>
+          <li>UNESCO cultural heritage sites <span class="intro__fact-value">16</span></li>
+          <li>Nature reserves <span class="intro__fact-value">105</span></li>
+          <li>Airports <span class="intro__fact-value">241</span></li>
+        </ul>
+      </section>
+
+      <ul class="gallery">
+        <li>
+          <img
+            class="gallery__image"
+            src="images/photo-grid-train.jpg"
+            alt="view of the sea through birch trees from the window of a moving train"
+          >
+        </li>
+        <li>
+          <img
+            class="gallery__image"
+            src="images/photo-grid-atharva-tulsi.jpg"
+            alt="snow-covered mountain peaks, haphazardly covered with clouds"
+          >
+        </li>
+        <li>
+          <img
+            class="gallery__image"
+            src="images/photo-grid-tuman.jpg"
+            alt="a field covered in fog at dawn, with twisted haystacks, one of which has a dog standing on it"
+          >
+        </li>
+        <li>
+          <img
+            class="gallery__image"
+            src="images/photo-grid-sochi.jpg"
+            alt="a coniferous forest growing on a steep slope, shrouded in dense, chaotic fog"
+          >
+        </li>
+        <li>
+          <img
+            class="gallery__image"
+            src="images/photo-grid-arisa.jpg"
+            alt="a wheel of a car standing on transparent ice of a lake"
+          >
+        </li>
+        <li>
+          <img
+            class="gallery__image"
+            src="images/photo-grid-baikal.jpg"
+            alt="sandy shore of Lake Baikal, with towering mountains in the background">
+        </li>
+        <li>
+          <img
+            class="gallery__image"
+            src="images/photo-grid-elbrus.jpg"
+            alt="snow-capped summit of Mount Elbrus against the backdrop of the snow-free foothills">
+        </li>
+        <li>
+          <img
+            class="gallery__image"
+            src="images/photo-grid-kondratiev.jpg"
+            alt="stone breakwaters scattered along the pedestrian waterfront">
+        </li>
+        <li>
+          <img
+            class="gallery__image"
+            src="images/photo-grid-kamchatka-1.jpg"
+            alt="amorphous, almost otherworldly landscape of Kamchatka geysers shrouded in mist"
+          >
+        </li>
+        <li>
+          <img
+            class="gallery__image"
+            src="images/photo-grid-kamchatka-2.jpg"
+            alt="meadow at sunset, with the sun-kissed mountain of Kamchatka Krai in the background"
+          >
+        </li>
+        <li>
+          <img
+            class="gallery__image"
+            src="images/photo-grid-baikal-2.jpg"
+            alt="rocky shore of Lake Baikal, view of the cliff from the top"
+          >
+        </li>
+        <li>
+          <img
+            class="gallery__image"
+            src="images/photo-grid-ergaki.jpg"
+            alt="high mountain hiking trail covered with chaotic fog"
+          >
+        </li>
+      </ul>
+
+      <section class="places">
+
+        <article class="places__place">
+          <h2 class="places__title">Curonian Spit</h2>
+          <div class="places__website">
+            <p class="places__website-heading">URL</p>
+            <a class="anchor places__website-link" href="http://park-kosa.ru/" target="_blank">
+              park-kosa.ru
+            </a>
+          </div>
+          <img
+            class="places__image"
+            src="images/place-kosa.jpg"
+            alt="roots of dried-up trees growing from the rocky bottom beneath the water's surface in shallow water"
+          >
+          <div class="places__textarea">
+            <p class="places__text">
+              Here, amidst forests and sandy dunes, you can see
+              two water horizons — the calm Curonian Bay on one side
+              and the Baltic Sea with its rippling waves on the other.
+              It's a unique natural area on the edge of the Russian exclave.
+            </p>
+            <p class="places__text">
+              But the Kaliningrad Oblast doesn't end there.
+              For the traveler and explorer, nearby is also the westernmost point of Russia,
+              the Baltic Spit, and the German legacy of small coastal towns.
+              The atmosphere of these places eliminates hustle and bustle,
+              immersing you in the tranquility of nature and the scent of the cool, steel sea.
+            </p>
+          </div>
+        </article>
+
+        <article class="places__place">
+          <h2 class="places__title">Kolsky</h2>
+          <div class="places__website">
+            <p class="places__website-heading">URL</p>
+            <a class="anchor places__website-link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank">
+              National Geographic
+            </a>
+          </div>
+          <img
+            class="places__image"
+            src="images/place-kolsky.jpg"
+            alt="snow-covered rocky shore, waves forming foam blending with the snow"
+          >
+          <div class="places__textarea">
+            <p class="places__text">
+              Almost the entire peninsula is located beyond the Arctic Circle.
+              Sami tundra to the south, taiga to the north, and the Arctic Ocean pretending to be the Barents Sea.
+            </p>
+            <p class="places__text">
+              Perhaps you've watched Zvyagintsev's films and even heard
+              the story of the Arctic festival in Teriberka.
+              Perhaps the word "Khibiny" hasn't been buried under the snow of school memories of geography lessons.
+              Perhaps you haven't been interested in the earth's crust pierced by ultra-deep wells,
+              and apathy from apatites has long covered you. But your dream
+              to see the Northern Lights begins to come true with a ticket to Murmansk.
+            </p>
+          </div>
+        </article>
+
+        <article class="places__place">
+          <h2 class="places__title">Altai</h2>
+          <div class="places__website">
+            <p class="places__website-heading">URL</p>
+            <a class="anchor places__website-link" href="https://www.youtube.com/watch/?v=7ZEsoV7kWAQ" target="_blank">
+              YouTube
+            </a>
+          </div>
+          <img
+            class="places__image"
+            src="images/place-altai.jpg"
+            alt="work desk in front of a large window with a panoramic view of a dense green forest"
+          >
+          <div class="places__textarea">
+            <p class="places__text">
+              Altai is one of the most beautiful places in Russia.
+              Primarily because of its mountains: if you travel along the ridges,
+              you will see slopes covered with pine trees, mountain rivers and lakes.
+              And if you open the windows of your car, you can experience
+              the invisible wonder of the local air — mountain air.
+            </p>
+            <p class="places__text">
+              The climate in Altai is moderate, so it's best to visit in the summer.
+              This way you can see the diversity of the local flora and fauna.
+              Moose roam the forests of Altai, eagles soar above the ridges,
+              and deer graze on the plains. And the famous manuls -
+              also inhabitants of the Altai region.
+            </p>
+          </div>
+        </article>
+
+        <article class="places__place">
+          <h2 class="places__title">Winter Baikal</h2>
+          <div class="places__website">
+            <p class="places__website-heading">URL</p>
+            <a class="anchor places__website-link" href="https://vk.com/baikalmile/" target="_blank">
+              VK
+            </a>
+          </div>
+          <img
+            class="places__image"
+            src="images/place-winter-baikal.jpg"
+            alt="close-up of the frozen surface of Lake Baikal - a thick layer of ice with abundant cracks"
+          >
+          <div class="places__textarea">
+            <p class="places__text">
+              Baikal is known to everyone as the largest lake in the world.
+              Many also know that it is the largest source of freshwater
+              and one of the most beautiful places in Russia.
+            </p>
+            <p class="places__text">
+              But Baikal is also an ideal place for skijoring competitions.
+              Skijoring is a sport where a skier is attached to a motorcycle,
+              and the tandem tries to achieve the highest possible speed on the ice.
+              In March 2019, at the "Baikal Mile" festival, a world record was set
+              with a speed of 197.011 km/h.
+            </p>
+          </div>
+        </article>
+
+        <article class="places__place">
+          <h2 class="places__title">Karelia</h2>
+          <div class="places__website">
+            <p class="places__website-heading">URL</p>
+            <a class="anchor places__website-link" href="http://vodlozero.ru/" target="_blank">
+              vodlozero.ru
+            </a>
+          </div>
+          <img
+            class="places__image"
+            src="images/place-karelia.jpg"
+            alt="sunrise view through the leaves of trees to a lake surrounded by forest"
+          >
+          <div class="places__textarea">
+            <p class="places__text">
+              Siberia doesn't end at the Urals, it ends in Karelia:
+              the Siberian larch, which forms the taiga, does not grow west
+              of Lake Vodlozero. But here it grows up to 30 meters tall -
+              the forests of Karelian national parks have never known an axe
+              due to impassable swamps. Some pines here are over a thousand years old.
+              Touch a living creature that saw the sun before Ivan the Terrible did.
+              In the virgin forest, you won't find a trail for hundreds of kilometers.
+              And on rare paths, trees a couple of meters above the ground
+              are marked with bear claws, so that everyone knows who's the master here.
+            </p>
+          </div>
+        </article>
+
+      </section>
+
+      <section class="see-also">
+        <a class="see-also__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
+          <div class="see-also__text-area">
+            <h2 class="see-also__title">"Dogsled" Journey<br>to Baikal</h2>
+            <p class="see-also__subtitle">
+              Based on the Trans-Siberian Railway educational course topic — a journey
+              from the capital to Lake Baikal by electric trains.
+            </p>
+          </div>
+          <div class="see-also__overlay">
+            <img
+              class="see-also__background"
+              src="images/cover-trains.jpg"
+              alt="setting sun illuminates numerous parallel railroad tracks, with freight cars standing on them"
+            >
+          </div>
+        </a>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <nav>
+        <ul class="footer__resources">
+          <li class="footer__link"><a class="anchor" href="https://maps.yandex.ru/" target="_blank">Maps</a></li>
+          <li class="footer__link"><a class="anchor" href="https://pogoda.yandex.ru/" target="_blank">Weather</a></li>
+          <li class="footer__link"><a class="anchor" href="https://rasp.yandex.ru/" target="_blank">Schedule</a></li>
+          <li class="footer__link"><a class="anchor" href="https://calendar.yandex.ru/" target="_blank">Calendar</a></li>
+          <li class="footer__link"><a class="anchor" href="https://travel.yandex.ru/" target="_blank">Voyages</a></li>
+        </ul>
+      </nav>
+      <p class="footer__author">
+        &copy; 2023
+        <a class="anchor" href="https://t.me/justicewisdom/" target="_blank">
+          Ivan Shanin
+        </a>
+      </p>
+    </footer>
+
+  </body>
+
+</html>
