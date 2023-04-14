@@ -1,0 +1,26 @@
+.places__place {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: minmax(100px, 1fr) 40px minmax(100px, 1fr);
+  grid-template-columns: repeat(2, minmax(100px, 1fr));
+  -ms-grid-rows: auto 48px auto;
+  grid-template-rows: repeat(2, auto);
+      grid-template-areas:
+    "title website"
+    "image textarea";
+  gap: 48px 40px;
+}
+@media screen and (max-width: 520px) {
+    .places__place {
+        -ms-grid-columns: minmax(100px, 1fr);
+        grid-template-columns: minmax(100px, 1fr);
+        -ms-grid-rows: auto 32px auto 32px auto 32px auto;
+        grid-template-rows: repeat(4, auto);
+            grid-template-areas:
+          "title"
+          "website"
+          "image"
+          "textarea";
+        gap: 32px 0;
+      }
+}

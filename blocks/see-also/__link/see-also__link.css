@@ -1,0 +1,7 @@
+.see-also__link {
+  display: block;
+  width: 100%;
+
+  position: relative;
+  z-index: 0;
+}

@@ -1,0 +1,9 @@
+.see-also {
+  margin: 0;
+  padding: 0 48px 0 48px;
+}
+@media screen and (max-width: 1100px) {
+    .see-also {
+        padding: 0;
+      }
+}

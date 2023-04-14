@@ -1,0 +1,15 @@
+.lead {
+  padding: 0 148px 0 148px;
+}
+@media screen and (max-width: 1100px) {
+    .lead {
+        padding-left: 48px;
+        padding-right: 48px;
+      }
+}
+@media screen and (max-width: 850px) {
+    .lead {
+        padding-left: 0;
+        padding-right: 0;
+      }
+}

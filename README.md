@@ -12,9 +12,9 @@
 - Методология БЭМ (BEM): управление стилями, файловая структура, нейминг
 - Адаптивная вёрстка с помощью механик Flexbox, Grid Layout, медиа-запросов (директивы @media)
 - https://autoprefixer.github.io/
-- https://nglazov.github.io/bem-validator-page/
 - https://npmjs.com/package/css-to-bem-file-structure/
 
 ### Автор
 Ваня Шанин
+
 https://t.me/justicewisdom/

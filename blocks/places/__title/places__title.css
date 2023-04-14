@@ -1,0 +1,33 @@
+.places__title {
+  grid-row: 1;
+  -ms-grid-row: 1;
+  grid-column: 1;
+  -ms-grid-column: 1;
+  grid-area: title;
+  margin: 0;
+
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+}
+@media screen and (max-width: 850px) {
+    .places__title {
+        font-size: 42px;
+        line-height: 46px;
+      }
+}
+@media screen and (max-width: 520px) {
+    .places__title {
+        grid-row: 1;
+        -ms-grid-row: 1;
+        grid-column: 1;
+        -ms-grid-column: 1;
+      }
+}
+@media screen and (max-width: 400px) {
+    .places__title {
+        margin: 0 16px 0 16px;
+        font-size: 32px;
+        line-height: 35px;
+      }
+}

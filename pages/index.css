@@ -12,67 +12,106 @@
 
 
 
-/* 1. block name */
-@import url(../blocks/name/name.css);
+/* 1. block header */
+@import url(../blocks/header/header.css);
 
 /* 2. block modifiers */
-@import url(../blocks/name/_modifier/name_modifier.css);
-@import url(../blocks/name/_modifier/name_modifier_value.css);
 
 /* 3. block elements */
-@import url(../blocks/name/__element/name__element.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__langs/header__langs.css);
+@import url(../blocks/header/__link/header__link.css);
 
 /* 4. block elements modifiers */
-@import url(../blocks/name/__element/_modifier/name__element_modifier.css);
-@import url(../blocks/name/__element/_modifier/name__element_modifier_value.css);
 
 
 
-/* 1. block name */
-@import url(../blocks/name/name.css);
+/* 1. block lead */
+@import url(../blocks/lead/lead.css);
 
 /* 2. block modifiers */
-@import url(../blocks/name/_modifier/name_modifier.css);
-@import url(../blocks/name/_modifier/name_modifier_value.css);
 
 /* 3. block elements */
-@import url(../blocks/name/__element/name__element.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
 
 /* 4. block elements modifiers */
-@import url(../blocks/name/__element/_modifier/name__element_modifier.css);
-@import url(../blocks/name/__element/_modifier/name__element_modifier_value.css);
 
 
 
-/* 1. block name */
-@import url(../blocks/name/name.css);
+/* 1. block intro */
+@import url(../blocks/intro/intro.css);
 
 /* 2. block modifiers */
-@import url(../blocks/name/_modifier/name_modifier.css);
-@import url(../blocks/name/_modifier/name_modifier_value.css);
 
 /* 3. block elements */
-@import url(../blocks/name/__element/name__element.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__facts/intro__facts.css);
+@import url(../blocks/intro/__fact-value/intro__fact-value.css);
 
 /* 4. block elements modifiers */
-@import url(../blocks/name/__element/_modifier/name__element_modifier.css);
-@import url(../blocks/name/__element/_modifier/name__element_modifier_value.css);
 
 
 
-/* 1. block name */
-@import url(../blocks/name/name.css);
+/* 1. block gallery */
+@import url(../blocks/gallery/gallery.css);
 
 /* 2. block modifiers */
-@import url(../blocks/name/_modifier/name_modifier.css);
-@import url(../blocks/name/_modifier/name_modifier_value.css);
 
 /* 3. block elements */
-@import url(../blocks/name/__element/name__element.css);
+@import url(../blocks/gallery/__image/gallery__image.css);
 
 /* 4. block elements modifiers */
-@import url(../blocks/name/__element/_modifier/name__element_modifier.css);
-@import url(../blocks/name/__element/_modifier/name__element_modifier_value.css);
 
 
 
+/* 1. block places */
+@import url(../blocks/places/places.css);
+
+/* 2. block modifiers */
+
+/* 3. block elements */
+@import url(../blocks/places/__place/places__place.css);
+@import url(../blocks/places/__title/places__title.css);
+@import url(../blocks/places/__website/places__website.css);
+@import url(../blocks/places/__website-heading/places__website-heading.css);
+@import url(../blocks/places/__website-link/places__website-link.css);
+@import url(../blocks/places/__image/places__image.css);
+@import url(../blocks/places/__textarea/places__textarea.css);
+@import url(../blocks/places/__text/places__text.css);
+
+/* 4. block elements modifiers */
+
+
+
+/* 1. block see-also */
+@import url(../blocks/see-also/see-also.css);
+
+/* 2. block modifiers */
+
+/* 3. block elements */
+@import url(../blocks/see-also/__link/see-also__link.css);
+@import url(../blocks/see-also/__text-area/see-also__text-area.css);
+@import url(../blocks/see-also/__title/see-also__title.css);
+@import url(../blocks/see-also/__subtitle/see-also__subtitle.css);
+@import url(../blocks/see-also/__overlay/see-also__overlay.css);
+@import url(../blocks/see-also/__background/see-also__background.css);
+
+/* 4. block elements modifiers */
+
+
+
+/* 1. block footer */
+@import url(../blocks/footer/footer.css);
+
+/* 2. block modifiers */
+
+/* 3. block elements */
+@import url(../blocks/footer/__resources/footer__resources.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__author/footer__author.css);
+
+/* 4. block elements modifiers */
