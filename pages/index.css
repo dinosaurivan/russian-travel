@@ -1,42 +1,78 @@
-/* нормализация и шрифты */
+/* normalization & fonts */
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 
-/* общие правила */
+/* common rulesets */
 @import url(../blocks/page/page.css);
 @import url(../blocks/content/content.css);
 
-/* стили вспомогательных блоков */
+/* independent helper blocks */
 @import url(../blocks/anchor/anchor.css);
 @import url(../blocks/anchor/_active/anchor_active.css);
 
 
 
-/* 1. блок */
+/* 1. block name */
+@import url(../blocks/name/name.css);
 
-/* 2. модификаторы блока */
+/* 2. block modifiers */
+@import url(../blocks/name/_modifier/name_modifier.css);
+@import url(../blocks/name/_modifier/name_modifier_value.css);
 
-/* 3. элементы блока */
+/* 3. block elements */
+@import url(../blocks/name/__element/name__element.css);
 
-/* 4. модификаторы элементов блока */
-
-
-
-/* 1. блок */
-
-/* 2. модификаторы блока */
-
-/* 3. элементы блока */
-
-/* 4. модификаторы элементов блока */
+/* 4. block elements modifiers */
+@import url(../blocks/name/__element/_modifier/name__element_modifier.css);
+@import url(../blocks/name/__element/_modifier/name__element_modifier_value.css);
 
 
 
-/* 1. блок */
+/* 1. block name */
+@import url(../blocks/name/name.css);
 
-/* 2. модификаторы блока */
+/* 2. block modifiers */
+@import url(../blocks/name/_modifier/name_modifier.css);
+@import url(../blocks/name/_modifier/name_modifier_value.css);
 
-/* 3. элементы блока */
+/* 3. block elements */
+@import url(../blocks/name/__element/name__element.css);
 
-/* 4. модификаторы элементов блока */
+/* 4. block elements modifiers */
+@import url(../blocks/name/__element/_modifier/name__element_modifier.css);
+@import url(../blocks/name/__element/_modifier/name__element_modifier_value.css);
+
+
+
+/* 1. block name */
+@import url(../blocks/name/name.css);
+
+/* 2. block modifiers */
+@import url(../blocks/name/_modifier/name_modifier.css);
+@import url(../blocks/name/_modifier/name_modifier_value.css);
+
+/* 3. block elements */
+@import url(../blocks/name/__element/name__element.css);
+
+/* 4. block elements modifiers */
+@import url(../blocks/name/__element/_modifier/name__element_modifier.css);
+@import url(../blocks/name/__element/_modifier/name__element_modifier_value.css);
+
+
+
+/* 1. block name */
+@import url(../blocks/name/name.css);
+
+/* 2. block modifiers */
+@import url(../blocks/name/_modifier/name_modifier.css);
+@import url(../blocks/name/_modifier/name_modifier_value.css);
+
+/* 3. block elements */
+@import url(../blocks/name/__element/name__element.css);
+
+/* 4. block elements modifiers */
+@import url(../blocks/name/__element/_modifier/name__element_modifier.css);
+@import url(../blocks/name/__element/_modifier/name__element_modifier_value.css);
+
+
 
