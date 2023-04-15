@@ -29,13 +29,16 @@
 .see-also__text-area:hover ~ .see-also__overlay {
   opacity: 0.2;
 }
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 720px) {
     .see-also__text-area {
         row-gap: 16px;
       }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
     .see-also__text-area {
-        width: calc(100% - 32px);
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        width: 100%;
+        padding: 0px 16px 0 16px;
       }
 }

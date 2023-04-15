@@ -1,6 +1,7 @@
 .content {
   margin: 0;
   padding: 0;
+  max-width: 1280px;
 
   display: -webkit-box;
 
@@ -11,4 +12,7 @@
   -webkit-box-direction: normal;
       -ms-flex-flow: column nowrap;
           flex-flow: column nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }

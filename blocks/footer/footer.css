@@ -1,13 +1,15 @@
 .footer {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  max-width: 1280px;
   padding: 92px 48px 24px 48px;
+
   display: -webkit-box;
+
   display: -ms-flexbox;
+
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row nowrap;
-          flex-flow: row nowrap;
-  row-gap: 48px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -25,6 +27,7 @@
         -webkit-box-direction: normal;
             -ms-flex-flow: column nowrap;
                 flex-flow: column nowrap;
+        row-gap: 48px;
       }
 }
 @media screen and (max-width: 520px) {

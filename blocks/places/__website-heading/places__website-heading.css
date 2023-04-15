@@ -1,14 +1,10 @@
 .places__website-heading {
+  margin: 0;
+
   font-weight: 400;
   font-size: 12px;
-  line-height: 20px;
+  line-height: 12px;
 
-  letter-spacing: 2px;
   color: #AAAAAA;
-  margin: 0;
-}
-@media screen and (max-width: 850px) {
-    .places__website-heading {
-        line-height: 12px;
-      }
+  letter-spacing: 2px;
 }

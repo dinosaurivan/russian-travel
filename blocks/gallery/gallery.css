@@ -32,7 +32,7 @@
         gap: 12px;
       }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
     .gallery {
         padding-left: 16px;
         padding-right: 16px;

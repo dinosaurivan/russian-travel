@@ -1,10 +1,11 @@
 .places__title {
   grid-row: 1;
-  -ms-grid-row: 1;
   grid-column: 1;
+  -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: title;
   margin: 0;
+  padding: 0;
 
   font-weight: 900;
   font-size: 72px;
@@ -18,15 +19,23 @@
 }
 @media screen and (max-width: 520px) {
     .places__title {
+        margin-left: 24px;
+        margin-right: 24px;
+      }
+}
+@media screen and (max-width: 520px) {
+    .places__title {
         grid-row: 1;
-        -ms-grid-row: 1;
         grid-column: 1;
+        -ms-grid-row: 1;
         -ms-grid-column: 1;
       }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
     .places__title {
-        margin: 0 16px 0 16px;
+        margin-left: 16px;
+        margin-right: 16px;
+    
         font-size: 32px;
         line-height: 35px;
       }

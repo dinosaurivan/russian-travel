@@ -27,11 +27,12 @@
 }
 @media screen and (max-width: 720px) {
     .places {
-        padding: 64px 24px 64px 24px;
+        padding-top: 64px;
+        padding-bottom: 64px;
         row-gap: 50px;
       }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 520px) {
     .places {
         padding-left: 0;
         padding-right: 0;

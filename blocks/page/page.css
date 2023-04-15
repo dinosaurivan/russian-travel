@@ -1,10 +1,24 @@
 .page {
-  margin: 0 auto 0 auto;
+  margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 
-  color: white; /* inherited */
-  font-family: 'Inter', Arial, sans-serif; /* inherited */
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+
+  color: white;
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
   background-color: #2A2C2F;
 }

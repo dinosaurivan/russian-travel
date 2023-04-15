@@ -1,9 +1,11 @@
 .places__website {
   grid-row: 1;
-  -ms-grid-row: 1;
   grid-column: 3;
+  -ms-grid-row: 1;
   -ms-grid-column: 3;
   grid-area: website;
+  margin: 0;
+  padding: 0;
 
   display: -webkit-box;
 
@@ -21,14 +23,21 @@
 }
 @media screen and (max-width: 520px) {
     .places__website {
+        margin-left: 24px;
+        margin-right: 24px;
+      }
+}
+@media screen and (max-width: 520px) {
+    .places__website {
         grid-row: 3;
-        -ms-grid-row: 3;
         grid-column: 1;
+        -ms-grid-row: 3;
         -ms-grid-column: 1;
       }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
     .places__website {
-        margin: 0 16px 0 16px;
+        margin-left: 16px;
+        margin-right: 16px;
       }
 }

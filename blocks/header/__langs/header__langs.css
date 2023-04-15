@@ -1,6 +1,12 @@
 .header__langs {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+
   display: -webkit-box;
+
   display: -ms-flexbox;
+
   display: flex;
   -webkit-column-gap: 18px;
      -moz-column-gap: 18px;
@@ -8,8 +14,4 @@
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-
-  margin: 0;
-  padding: 0;
-  height: 100%;
 }
