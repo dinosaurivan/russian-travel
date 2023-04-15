@@ -2,7 +2,7 @@
   position: relative;
   z-index: 1;
 
-  background-image: url(../images/cover-trains.jpg);
+  background-image: url(../../../images/cover-trains.jpg);
   background-size: contain;
   padding-top: 62.5%; /* (img-height / img-width * container-width) */
 
