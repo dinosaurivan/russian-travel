@@ -4,28 +4,27 @@
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Учебный проект по статической вёрстке">
-    <meta name="keywords" content="HTML5, CSS, BEM, media queries">
+    <meta name="description" content="Учебный проект по адаптивной вёрстке">
+    <meta name="keywords" content="HTML, CSS, BEM, flexbox, grid layout, media queries">
     <meta name="author" content="Ваня Шанин">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Путешествия по России</title>
     <link rel="icon" href="images/plane.png">
-    <link rel="stylesheet" href="pages/index.css">
-    <!-- <link rel="stylesheet" href="vendor/normalize.css"> -->
-    <!-- <link rel="stylesheet" href="vendor/fonts.css"> -->
-    <!-- <link rel="stylesheet" href="styles/styles.css"> -->
+    <!-- <link rel="stylesheet" href="pages/index.css"> -->
+    <link rel="stylesheet" href="vendor/normalize.css">
+    <link rel="stylesheet" href="vendor/fonts.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <!-- <link rel="stylesheet" href="styles/styles_autoprefixed.css"> -->
   </head>
 
   <body class="page">
 
     <header class="header">
       <img class="header__logo" src="images/header-logo.svg" alt="карта России в миниатюре">
-      <nav>
-        <ul class="header__langs">
-          <li class="header__link"><a class="anchor anchor_active" href="#">Ru</a></li>
-          <li class="header__link"><a class="anchor" href="index_en.html">En</a></li>
-        </ul>
-      </nav>
+      <ul class="header__langs">
+        <li class="header__link"><a class="anchor anchor_active" href="#">Ru</a></li>
+        <li class="header__link"><a class="anchor" href="index_en.html">En</a></li>
+      </ul>
     </header>
 
     <main class="content">
@@ -33,13 +32,15 @@
       <section class="lead">
         <h1 class="lead__title">Путешествия по России</h1>
         <p class="lead__subtitle">Настоящая страна не в выпусках<br>новостей, а здесь.</p>
-        <img
-          class="lead__image"
-          src="images/lead-polka.jpg"
-          alt="пассажир спит днём на верхней полке купе во время долгого путешествия в поезде"
-        >
-        <p class="lead__caption">ваша полка — верхняя</p>
-        <h3 class="lead__intro">Чего мы там не видели?</h3>
+        <figure>
+          <img
+            class="lead__image"
+            src="images/lead-polka.jpg"
+            alt="пассажир спит днём на верхней полке купе во время долгого путешествия в поезде"
+          >
+          <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+        </figure>
+        <h2 class="lead__intro">Чего мы там не видели?</h2>
         <p class="lead__text">
           По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать,
           но только 36% планируют провести отпуск в родной стране.
@@ -61,89 +62,91 @@
         </ul>
       </section>
 
-      <ul class="gallery">
-        <li>
-          <img
-            class="gallery__image"
-            src="images/photo-grid-train.jpg"
-            alt="вид на море сквозь берёзы из окна движущегося поезда"
-          >
-        </li>
-        <li>
-          <img
-            class="gallery__image"
-            src="images/photo-grid-atharva-tulsi.jpg"
-            alt="заснеженные горные вершины, хаотично накрытые облаками"
-          >
-        </li>
-        <li>
-          <img
-            class="gallery__image"
-            src="images/photo-grid-tuman.jpg"
-            alt="поле, покрытое туманом на рассвете, со скрученными стогами сена, на одном из которых стоит собака"
-          >
-        </li>
-        <li>
-          <img
-            class="gallery__image"
-            src="images/photo-grid-sochi.jpg"
-            alt="хвойный лес, растущий на крутом склоне, в хаотичном густом тумане"
-          >
-        </li>
-        <li>
-          <img
-            class="gallery__image"
-            src="images/photo-grid-arisa.jpg"
-            alt="колесо машины, стоящей на прозрачном льду озера"
-          >
-        </li>
-        <li>
-          <img
-            class="gallery__image"
-            src="images/photo-grid-baikal.jpg"
-            alt="песчаный берег озера Байкал, с возвыщающимися на заднем плане горами">
-        </li>
-        <li>
-          <img
-            class="gallery__image"
-            src="images/photo-grid-elbrus.jpg"
-            alt="заснеженная верхушка горы Эльбрус на фоне незаснеженного предгорья">
-        </li>
-        <li>
-          <img
-            class="gallery__image"
-            src="images/photo-grid-kondratiev.jpg"
-            alt="каменные волнорезы, раскиданные вдоль пешеходной набережной">
-        </li>
-        <li>
-          <img
-            class="gallery__image"
-            src="images/photo-grid-kamchatka-1.jpg"
-            alt="бесформенный, почти инопланетный пейжаз из гейзеров камчатки, покрытых туманом"
-          >
-        </li>
-        <li>
-          <img
-            class="gallery__image"
-            src="images/photo-grid-kamchatka-2.jpg"
-            alt="луг на закате, на фоне которого - залитая солнцем гора Камчатского края"
-          >
-        </li>
-        <li>
-          <img
-            class="gallery__image"
-            src="images/photo-grid-baikal-2.jpg"
-            alt="скалистый берег озера Байкал, вид на скалу сверху"
-          >
-        </li>
-        <li>
-          <img
-            class="gallery__image"
-            src="images/photo-grid-ergaki.jpg"
-            alt="покрытая хаотичным туманом высокогорная пешеходная тропа"
-          >
-        </li>
-      </ul>
+      <section class="gallery">
+        <ul class="gallery__items">
+          <li>
+            <img
+              class="gallery__image"
+              src="images/photo-grid-train.jpg"
+              alt="вид на море сквозь берёзы из окна движущегося поезда"
+            >
+          </li>
+          <li>
+            <img
+              class="gallery__image"
+              src="images/photo-grid-atharva-tulsi.jpg"
+              alt="заснеженные горные вершины, хаотично накрытые облаками"
+            >
+          </li>
+          <li>
+            <img
+              class="gallery__image"
+              src="images/photo-grid-tuman.jpg"
+              alt="поле, покрытое туманом на рассвете, со скрученными стогами сена, на одном из которых стоит собака"
+            >
+          </li>
+          <li>
+            <img
+              class="gallery__image"
+              src="images/photo-grid-sochi.jpg"
+              alt="хвойный лес, растущий на крутом склоне, в хаотичном густом тумане"
+            >
+          </li>
+          <li>
+            <img
+              class="gallery__image"
+              src="images/photo-grid-arisa.jpg"
+              alt="колесо машины, стоящей на прозрачном льду озера"
+            >
+          </li>
+          <li>
+            <img
+              class="gallery__image"
+              src="images/photo-grid-baikal.jpg"
+              alt="песчаный берег озера Байкал, с возвыщающимися на заднем плане горами">
+          </li>
+          <li>
+            <img
+              class="gallery__image"
+              src="images/photo-grid-elbrus.jpg"
+              alt="заснеженная верхушка горы Эльбрус на фоне незаснеженного предгорья">
+          </li>
+          <li>
+            <img
+              class="gallery__image"
+              src="images/photo-grid-kondratiev.jpg"
+              alt="каменные волнорезы, раскиданные вдоль пешеходной набережной">
+          </li>
+          <li>
+            <img
+              class="gallery__image"
+              src="images/photo-grid-kamchatka-1.jpg"
+              alt="бесформенный, почти инопланетный пейжаз из гейзеров камчатки, покрытых туманом"
+            >
+          </li>
+          <li>
+            <img
+              class="gallery__image"
+              src="images/photo-grid-kamchatka-2.jpg"
+              alt="луг на закате, на фоне которого - залитая солнцем гора Камчатского края"
+            >
+          </li>
+          <li>
+            <img
+              class="gallery__image"
+              src="images/photo-grid-baikal-2.jpg"
+              alt="скалистый берег озера Байкал, вид на скалу сверху"
+            >
+          </li>
+          <li>
+            <img
+              class="gallery__image"
+              src="images/photo-grid-ergaki.jpg"
+              alt="покрытая хаотичным туманом высокогорная пешеходная тропа"
+            >
+          </li>
+        </ul>
+      </section>
 
       <section class="places">
 
@@ -310,13 +313,7 @@
               от столицы до Байкала на электричках.
             </p>
           </div>
-          <div class="see-also__overlay">
-            <img
-              class="see-also__background"
-              src="images/cover-trains.jpg"
-              alt="закатное солнце освещает многочисленные параллельные желехнодорожные пути, на которых стоят товарные вагоны"
-            >
-          </div>
+          <div class="see-also__overlay"></div>
         </a>
       </section>
 

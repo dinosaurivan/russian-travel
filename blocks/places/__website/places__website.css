@@ -1,6 +1,4 @@
 .places__website {
-  grid-row: 1;
-  grid-column: 3;
   -ms-grid-row: 1;
   -ms-grid-column: 3;
   grid-area: website;
@@ -29,8 +27,6 @@
 }
 @media screen and (max-width: 520px) {
     .places__website {
-        grid-row: 3;
-        grid-column: 1;
         -ms-grid-row: 3;
         -ms-grid-column: 1;
       }

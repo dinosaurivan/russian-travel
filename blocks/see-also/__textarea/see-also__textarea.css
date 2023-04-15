@@ -1,4 +1,4 @@
-.see-also__text-area {
+.see-also__textarea {
   width: -webkit-min-content;
   width: -moz-min-content;
   width: min-content;
@@ -26,16 +26,16 @@
       -ms-flex-align: center;
           align-items: center;
 }
-.see-also__text-area:hover ~ .see-also__overlay {
+.see-also__textarea:hover ~ .see-also__overlay {
   opacity: 0.2;
 }
 @media screen and (max-width: 720px) {
-    .see-also__text-area {
+    .see-also__textarea {
         row-gap: 16px;
       }
 }
 @media screen and (max-width: 420px) {
-    .see-also__text-area {
+    .see-also__textarea {
         -webkit-box-sizing: border-box;
                 box-sizing: border-box;
         width: 100%;

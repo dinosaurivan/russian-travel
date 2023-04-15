@@ -1,6 +1,4 @@
 .places__image {
-  grid-row: 3;
-  grid-column: 1;
   -ms-grid-row: 3;
   -ms-grid-column: 1;
   grid-area: image;
@@ -8,8 +6,6 @@
 }
 @media screen and (max-width: 520px) {
     .places__image {
-        grid-row: 5;
-        grid-column: 1;
         -ms-grid-row: 5;
         -ms-grid-column: 1;
       }

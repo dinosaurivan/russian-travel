@@ -1,6 +1,4 @@
 .places__title {
-  grid-row: 1;
-  grid-column: 1;
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: title;
@@ -25,8 +23,6 @@
 }
 @media screen and (max-width: 520px) {
     .places__title {
-        grid-row: 1;
-        grid-column: 1;
         -ms-grid-row: 1;
         -ms-grid-column: 1;
       }
