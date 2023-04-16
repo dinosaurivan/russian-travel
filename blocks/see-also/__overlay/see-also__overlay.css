@@ -1,7 +1,4 @@
 .see-also__overlay {
-  height: -webkit-max-content;
-  height: -moz-max-content;
-  height: max-content;
   min-height: 100%;
 
   color: white;

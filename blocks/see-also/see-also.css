@@ -1,12 +1,17 @@
 .see-also {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  width: 100%;
   margin: 0;
-  padding: 0 48px 0 48px;
+  padding: 0;
+  width: calc(100% - 96px);
+
+  background-image: url(../../images/cover-trains.jpg);
+  background-size: cover;
+  background-position: center;
+  aspect-ratio: 2048 / 1280;
 }
 @media screen and (max-width: 1100px) {
     .see-also {
-        padding: 0;
+        width: 100%;
       }
 }
