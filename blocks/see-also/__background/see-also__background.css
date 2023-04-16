@@ -1,0 +1,6 @@
+.see-also__background {
+  background-image: url(../../../images/cover-trains.jpg);
+  background-size: cover;
+  background-position: center;
+  aspect-ratio: 2048 / 1280;
+}

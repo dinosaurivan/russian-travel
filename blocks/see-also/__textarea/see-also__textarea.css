@@ -2,15 +2,6 @@
   width: -webkit-min-content;
   width: -moz-min-content;
   width: min-content;
-  color: white;
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  z-index: 2;
 
   display: -webkit-box;
 
@@ -25,9 +16,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-.see-also__textarea:hover ~ .see-also__overlay {
-  opacity: 0.2;
 }
 @media screen and (max-width: 720px) {
     .see-also__textarea {
